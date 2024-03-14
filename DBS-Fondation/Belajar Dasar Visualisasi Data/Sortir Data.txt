@@ -1,0 +1,22 @@
+Sortir Data
+Tahukah Anda tentang sortir data di Google Sheets? Fitur ini berguna untuk mengurutkan data yang kita miliki supaya lebih tertata rapi.
+
+Terdapat beberapa hal yang harus didefinisikan di awal sebelum melakukan sortir data, di antaranya seperti:
+
+* Manakah kolom yang harus disortir?
+Tentukan terlebih dahulu data yang ingin disortir. Misalnya pada sebuah tabel yang berisi informasi jumlah penjualan dari masing-masing produk yang dijual di sebuah toko. Apakah kita ingin mengurutkan berdasarkan angka penjualan atau berdasarkan nama produknya?
+
+*Bagaimana metode mengurutkannya?
+Selanjutnya Anda dapat menentukan metode dalam proses sortir. Misalnya jika kita memilih untuk mengurutkan berdasarkan angka penjualan, apakah ingin diurutkan dari yang paling laris atau dari yang paling sedikit terjual?
+
+*Kunci dalam proses sortir adalah memastikan bahwa seluruh data yang ingin disortir telah terpilih. Setiap baris dalam berkas spreadsheet dapat mewakili penjualan produk kepada pelanggan. Kemudian, setiap kolom atribut akan mencatat detail misalnya seperti jumlah produk terjual penjualan, waktu dibuat, alamat pelanggan, dan lain-lain.
+
+Masih bingung tentang sortir data? Simak penerapan sortir data pada uraian di bawah ini:
+
+1. Unduh berkas contoh data penjualan yang ingin kita sortir di https://github.com/dicodingacademy/assets/raw/main/visualisasi_data_academy/SampleDataModulSortirData.xlsx.
+2. Selanjutnya lakukan import contoh data tersebut ke dalam Google Sheets.
+3. Sehingga tampilannya menjadi seperti berikut.
+4. Sorot terlebih dahulu semua data yang ada di Spreadsheet tersebut. Hal ini bisa kamu lakukan dengan cara klik dan seret dari kolom A hingga kolom G. Kemudian buka menu Data dan klik opsi Sort range.
+5. Dengan menggunakan Sort range, Anda dapat mengurutkan data berdasarkan satu kondisi. Misalnya hanya ingin mengurutkan berdasarkan kolom C (Nama Pembeli) saja atau berdasarkan kolom D (Produk) saja.
+
+Anda juga dapat mengurutkan berdasarkan dua atau lebih kondisi, seperti mengurutkan berdasarkan kolom C namun juga berdasarkan kolom D. Untuk lebih jelasnya, ikuti langkah berikut.

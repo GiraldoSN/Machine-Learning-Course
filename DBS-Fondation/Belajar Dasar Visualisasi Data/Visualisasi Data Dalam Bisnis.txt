@@ -1,0 +1,15 @@
+* Scorecard
+
+Scorecard merupakan sebuah visualisasi yang fokus pada sebuah jenis data yang spesifik. Sehingga biasanya terdiri dari 1 bentuk visualisasi saja. Visualisasinya dapat berfokus pada jumlah pendapatan, kepuasan pelanggan, dan hal lainnya yang dapat dibandingkan dengan target yang telah ditentukan. Scorecard dapat juga menggambarkan tentang salah satu Key Performance Indicators (KPI) perusahaan yang lebih disederhanakan untuk dapat memantau kemajuan progres.
+
+* Dashboard
+
+Dashboard merupakan kumpulan dari berbagai macam visualisasi yang menggabungkan dan merangkum informasi atau data bisnis. Kumpulan beberapa scorecard juga dapat disebut sebagai sebuah dashboard. Sebelum mendesain sebuah dashboard, Anda harus menentukan terlebih dahulu apa saja yang ingin diceritakan dalam dashboard itu. Saat kerangka dashboard sudah dibuat, Anda dapat mengisinya dengan berbagai visualisasi yang relevan seperti diagram garis, batang, lingkaran, dan berbagai metode visualisasi lainnya. Biasanya terdapat kombinasi empat visualisasi data yang saling berhubungan satu sama lain.
+
+* Report
+
+Report atau laporan merupakan suatu bentuk penyampaian berita, keterangan, pemberitahuan, ataupun pertanggungjawaban sebagai bentuk pelaksanaan komunikasi dari pihak yang satu kepada pihak yang lainnya. Report yang baik, menggunakan visualisasi data untuk membuat ringkasan dari apa yang terjadi di perusahaan dalam waktu tertentu sehingga dapat digunakan untuk memahami hal yang sedang terjadi dari suatu perusahaan dengan secepat mungkin.
+
+* Analytic Report
+
+Analytic report adalah laporan yang berfokus pada analisis yang digunakan untuk menentukan keputusan. Jenis laporan ini menggunakan data kualitatif dan kuantitatif untuk menganalisis dan mengevaluasi ide dari suatu bisnis. Analytic report memberikan keuntungan untuk pembaca karena memberi pemahaman yang mudah dipahami. Selain itu hanya dengan membaca sekilas saja, pembaca juga dapat memahami data dalam jumlah yang banyak. Analytic report juga menerapkan langkah-langkah umum seperti mengidentifikasi masalah, menentukan metode yang tepat, analisis data, dan mendapatkan solusi terbaik dari masalah yang dihadapi.

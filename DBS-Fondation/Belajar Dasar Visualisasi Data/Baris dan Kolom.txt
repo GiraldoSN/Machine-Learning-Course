@@ -1,0 +1,56 @@
+Pada materi sebelumnya kita telah mempelajari navigasi pada Google Sheets. Nah, sekarang bermain yuk dengan baris dan kolom,
+memanfaatkan contoh data spreadsheet yang dapat diunduh di sini: https://github.com/dicodingacademy/assets/raw/main/vd_academy/file_example_XLS_10.xls
+
+Dalam percobaan kali ini kita menggunakan data sederhana yang terdiri dari 10 baris saja. Kita dapat memasukkan file tersebut dengan cara Import seperti berikut:
+
+1. Klik File - Import pada menu bar Google Sheets
+2. Selanjutnya pilih berkas yang ingin ditambahkan dan akan muncul jendela berikut
+
+Hal tersebut di atas terdapat lima pilihan untuk mengimpor file, yaitu dari:
+- My Drive: menambahkan contoh berkas dari Drive. Jika menggunakan opsi ini, tentukan juga lokasi folder berkas yang akan diimpor.
+- Shared with me: menambahkan contoh berkas dari sekumpulan berkas milik orang lain yang aksesnya dibagi (shared) dengan Anda.
+- Shared drives: menambahkan contoh berkas dari shared drive (drive lain yang bisa Anda akses).
+- Recent: menambahkan contoh berkas dari sekumpulan berkas yang baru Anda akses.
+- Upload: menambahkan contoh berkas dari mesin lokal/komputer Anda.
+
+Maka dari itu kita pilih Upload supaya bisa mengunggah berkas contoh yang tadi kita unduh sehingga tidak perlu membuat berkas baru.
+
+* Menyisipkan Kolom * 
+Saat ini Anda sudah memiliki 10 baris contoh data. Bagaimana caranya apabila kita ingin menambahkan kolom baru dengan nama City di antara Gender dan Country? Berikut langkah-langkahnya.
+
+1. Sorot salah satu kolom. Misalnya di sini kita memilih kolom gender.
+    Karena gender berada di kolom D, maka klik kolom tersebut sehingga semua kolom D tersorot.
+
+2. Klik kanan pada kolom gender tersebut kemudian pilih Insert 1 right karena kolom city yang ingin kita buat posisinya setelah kolom Gender dan sebelum kolom Country.
+
+3. Hasilnya adalah kolom baru di antara Gender dan Country. Lalu kita dapat mengisi data pada kolom kosong tersebut dengan data kolom City di bawah.
+
+* Menghapus Kolom *
+Bagaimana jika kita tidak sengaja membuat kolom baru dan ingin menghapusnya? Misalkan pada contoh data sebelumnya di mana kita ingin menghapus kolom Date?
+
+1. Karena date berada di kolom H, klik kolom tersebut sehingga semuanya tersorot.
+
+2. Klik kanan pada kolom date tersebut kemudian pilih Delete Column.
+
+3. Sehingga seluruh data pada kolom H akan terhapus kemudian secara otomatis data ID (yang sebelumnya berada di kolom I) akan bergeser ke kiri seperti berikut (menjadi data kolom H yang baru).
+
+* Menyisipkan Baris *
+Sebelumnya kita membahas tentang menyisipkan dan menghapus kolom. Selanjutnya kita bermain dengan baris dari contoh data yang ada. 
+
+Bagaimana caranya jika kita ingin menyisipkan data milik George di baris ke-5 setelah nama Philip? Dengan masih menggunakan contoh data terakhir di atas, mari kita mulai dengan langkah berikut.
+
+1. Berdasarkan spreadsheet, Philip berada di baris ke-4. Karena itu klik baris tersebut sehingga semua baris ke-4 tersorot.
+
+2. Klik kanan pada baris nama Philip tersebut kemudian pilih Insert 1 below karena nama George ingin kita buat posisinya setelah Philip dan sebelum Kathleen.
+
+3. Setelah muncul baris baru di antara Philip dan Kathleen, kita dapat mengisi data George pada baris baru tersebut.
+
+* Menghapus Baris *
+Bagaimana jika kita tidak sengaja membuat baris baru dan ingin menghapusnya? Misalkan pada contoh data sebelumnya kita ingin menghapus baris George.
+
+1. Karena George berada di baris ke-5, klik baris tersebut sehingga semuanya tersorot.
+
+2. Klik kanan pada baris George tersebut kemudian pilih Delete Row.
+
+3. Ketika data pada baris ke-5 terhapus, maka otomatis data pada baris setelahnya (baris ke-6 dan seterusnya) akan naik menggantikan data milik George. Sehingga data Kathleen akan bergeser ke atas seperti berikut.
+

@@ -1,0 +1,161 @@
+*Min dan Max*
+Apakah Anda pernah menggunakan fungsi min max sebelumnya? Kedua fungsi ini berguna untuk menentukan nilai terendah (MIN) dan tertinggi (MAX) dari suatu rentang data yang terpilih. Contoh penggunaan rumus min max seperti berikut:
+
+=MIN(data ke-1, data ke-2, …, data ke-n)
+=MAX(data ke-1, data ke-2, …, data ke-n)
+
+
+Contoh kasus:
+
+Kita kembali menggunakan tabel data penjualan ATK di bawah ini untuk menerapkan contoh kasus penggunaan Min Max.
+
+Pertama, untuk mengetahui barang apa yang paling banyak terjual gunakan rumus =MAX(C3:C12).
+
+Rumus MAX di gunakan untuk memilih rentang data mulai dari C3 hingga C12. Sehingga dapat disimpulkan bahwa angka penjualan paling banyak pada rentang data tersebut sejumlah 300.
+Selanjutnya untuk mencari angka penjualan paling rendah, rumus yang dapat diterapkan adalah =MIN(C3:C12).
+
+*Trim*
+Selanjutnya fungsi TRIM digunakan untuk menghilangkan ruang kosong yang tidak dibutuhkan pada sebuah teks. Fungsi ini hanya berjalan pada sel tunggal bukan pada rentang sel. Penggunaan rumusnya adalah sebagai berikut:
+
+=TRIM(teks)
+Contoh kasus:
+
+Terapkan rumus =TRIM(A2) pada sel B2 sebagai berikut: Hasilnya setelah menggunakan fungsi TRIM, data yang dihasilkan pun menjadi lebih rapi. Sekarang coba gunakan fungsi TRIM untuk merapikan data pada sel A3 dan seterusnya.
+
+*Replace*
+Selanjutnya terdapat fungsi Replace. Tahukah Anda apakah fungsi Replace dalam spreadsheet? Replace dapat digunakan untuk mengganti string baik berupa angka maupun teks biasa. Sistematika penulisan Replace sebagai berikut:
+
+=REPLACE(text, position, length, new_text)
+
+Contoh kasus:
+terdapat 3 data yang ingin kita ganti, yaitu:
+
+Buka diganti menjadi Buku
+Saya membaca buku diganti menjadi Saya menulis buku
+Saya123 diganti menjadi Aku123
+
+Untuk contoh pertama kita menerapkan fungsi sebagai berikut pada sel B2
+
+Berikut penjelasannya sesuai sistematika penulisannya:
+Text : Dapat diisi dengan teks secara langsung atau alamat sel. Dalam contoh di atas menggunakan alamat sel A2.
+
+Position : Posisi atau urutan dari huruf yang ingin diganti. Dalam hal ini huruf “a” yang ingin kita ganti berada di urutan ke-4 dari kata “Buka”.
+
+Length : Panjang karakter yang ingin kita ganti. Karena yang ingin kita ganti hanya huruf “a” saja berarti kita isi dengan 1.
+
+New_text : Teks baru yang ingin kita gunakan untuk mengganti teks lama, bisa berupa angka atau huruf. Dalam contoh di atas kita menggunakan huruf “u” sebagai teks baru supaya kata “Buka” bisa berganti menjadi “Buku”.
+
+Contoh selanjutnya kita ingin mengganti kalimat “Saya membaca buku” menjadi “Saya menulis buku”.
+
+Berikut penjelasannya sesuai sistematika penulisannya:
+
+Text : Dapat diisi dengan teks secara langsung atau alamat sel. Dalam contoh di atas menggunakan alamat sel A3.
+
+Position : Posisi atau urutan dari huruf yang ingin diganti. Dalam hal ini kata “membaca” yang ingin kita ganti berada di urutan ke-6 dengan spasi terhitung satu karakter.
+
+Length : Panjang karakter yang ingin kita ganti. Karena yang ingin kita ganti kata “membaca” berarti kita isi dengan 7.
+
+New_text : Teks baru yang ingin kita gunakan untuk mengganti teks lama, bisa berupa angka, huruf, dan kalimat. Dalam contoh di atas kita menggunakan kata “menulis” sebagai teks baru supaya kata “membaca” bisa berganti menjadi “menulis”.
+
+Kemudian kita ingin mengganti kalimat “Saya123” menjadi “Aku123”.
+
+Berikut penjelasannya sesuai sistematika penulisannya:
+
+Text : Dapat diisi dengan teks secara langsung atau alamat sel. Dalam contoh di atas menggunakan alamat sel A4.
+
+Position : Posisi atau urutan dari huruf yang ingin diganti. Dalam hal ini dari kata “Saya123” hanya diganti bagian “Saya” saja. Sehingga urutan karakternya diisi dengan 1.
+
+Length : Panjang karakter yang ingin kita ganti. Karena yang ingin kita ganti kata “Saya” berarti kita isi dengan 4.
+
+New_text : Teks baru yang ingin kita gunakan untuk mengganti teks lama, bisa berupa angka, huruf, dan kalimat. Dalam contoh di atas kita menggunakan kata “Aku”.
+
+*Unique*
+Unique merupakan sebuah fungsi yang dapat kita gunakan untuk mencari data yang unik dari sebuah data yang mungkin saja ada yang sama. Sistematika penulisannya sebagai berikut:
+
+=UNIQUE(range)
+Contoh kasus:
+
+Ketika barang di input menggunakan rumus: =UNIQUE(A2:A11) klik blok dari A2 sampai A11, jadi yang hasil yang didapat adalah berurut sesuai dengan format tabel rangkap 2
+
+*IF*
+Fungsi IF digunakan untuk membuat perbandingan logis antara sebuah data dengan kondisi penguji yang yang diberikan. Penggunaannya sebagai berikut:
+
+=IF(Sel yang ingin diuji, [nilai jika benar], [nilai jika salah])
+Contoh:
+
+= IF (E4>=E3, “Ya”,”Salah”)
+
+IF Sederhana
+Untuk menerapkan fungsi IF dalam contoh kasus, kita modifikasi contoh tabel Penjualan data seperti berikut:
+
+Contoh kasus:
+
+Kita ingin mengetahui status penjualan setiap barang berdasarkan dua opsi kategori berikut: sudah “bagus” atau “perlu ditingkatkan”. Parameter untuk menentukan status tersebut adalah jika barang yang terjual lebih dari 75 unit, maka masuk kategori penjualan bagus. Namun jika sama atau kurang dari 75 unit yang terjual, maka statusnya perlu ditingkatkan. Bagaimana cara mengetahuinya?
+
+Pada alamat sel D3 masukkan rumus =IF(C3>75,"Bagus","Perlu ditingkatkan"). Fungsi tersebut memeriksa sel C3, yang berisi nilai 300, apakah lebih besar dari angka standar yang ditentukan (pada kasus ini 75).
+
+IF Bertingkat
+Terdapat 5 nilai siswa (lihat kolom D) dalam sebuah ulangan matematika. Bagaimana caranya jika kita ingin mengetahui nilai huruf dari kelima siswa tersebut?
+
+Jawab:
+
+Kita dapat menggunakan IF bertingkat pada alamat sel E3 seperti berikut:
+
+=IF(D3>=90,"A",IF(D3>=80,"B",IF(D3>=70,"C",IF(D3>=60,"D","E"))))
+
+Pada tabel di atas terdapat empat logika IF. IF pertama digunakan untuk menguji apakah nilainya lebih dari atau sama dengan 90.
+Jika benar, maka akan mendapatkan nilai huruf A. Jika salah, maka akan disambung dengan IF kedua,
+yaitu menguji apakah nilainya lebih dari atau sama dengan 80. Jika benar, maka akan mendapatkan nilai huruf B. 
+Jika ternyata masih salah, maka akan disambung dengan IF ketiga,
+yaitu menguji apakah nilai lebih besar atau sama dengan 70. Jika benar, maka akan mendapatkan nilai huruf C. Terakhir,
+jika masih belum memenuhi kondisi, maka akan diuji apakah nilai lebih dari atau sama dengan 60.
+Jika benar, maka akan mendapatkan nilai D. Jika tidak memenuhi kondisi di atas berarti otomatis mendapat nilai E karena di bawah 60.
+Jangan lupa pada penulisan rumus untuk menggunakan tutup kurung sebanyak jumlah IF pada akhir fungsi.
+
+*Apa itu Pivot Table?*
+Untuk membantu menjelaskan pivot dalam spreadsheet, kita akan gunakan contoh data harga indekos per bulan berikut.
+Contoh Data Harga Indekos
+
+Menurut Anda, bagaimana jika kita ingin mengetahui berapa jumlah indekos putra dan total harga per bulannya?
+Mungkin Anda akan menggunakan fungsi COUNTIF (menghitung jumlah data berupa teks dengan parameter tertentu) dan
+SUMIF (menjumlahkan data berupa angka sehingga diketahui jumlah keseluruhannya) untuk menyelesaikan permasalahan tersebut. 
+
+Namun, bagaimana jika contoh kasusnya diganti dengan berapa jumlah indekos putri dan total harga per bulannya? Tentu Anda dapat mengganti rumus sebelumnya,
+namun akan terkesan kurang praktis dan efisien. Nah, di sinilah waktunya kita menggunakan pivot agar lebih fleksibel dalam mengetahui sebuah kelompok data yang diinginkan.
+Cukup dengan beberapa klik, kita bisa mengetahui hasilnya sebagai berikut tanpa perlu melakukan penulisan rumus baru.
+
+Membuat Pivot Table dari Data Sederhana
+Sudah coba membuat pivot table dengan contoh data di atas? Jika belum yuk kita belajar bersama membuat pivot tabel sederhana dengan contoh data di bawah ini:
+Data Kos
+
+Contoh data di atas merupakan modifikasi dari tabel sebelumnya dengan menambahkan nama pemilik. Penerapan pivot table pun jadi lebih detail. Untuk memulai, simak langkah-langkahnya di bawah ini ya.
+
+Pertama pastikan Anda sudah membuat tabel data seperti contoh di atas, kemudian sorot semua data.
+Data Kos
+Setelah itu pilih menu Insert - Pivot table.
+Insert - Pivot table
+Muncul jendela baru Create pivot table. Pilih New Sheet supaya data hasil pivot dibuat pada sheet lain sehingga tidak bercampur dengan data asal. Namun, jika Anda menghendaki hasil pivot diletakkan dalam sheet yang sama maka pilih Existing sheet. Setelah itu klik Create.
+Create pivot table
+Setelah itu muncul sheet baru dengan isi Row, Column, dan Values. Serta di samping kanan terdapat Pivot table editor seperti di bawah ini.
+Pivot View
+Selanjutnya kita tentukan data apa yang ingin dikelompokkan dengan pivot table. Misal, kita ingin melihat setiap pemilik mengelola beberapa jenis tempat indekos.
+
+Dari kondisi di atas, kita coba masukkan ke dalam pivot table editor. Untuk menambahkan nama pemilik indekos, kita dapat memasukkannya ke dalam Rows dengan klik tombol Add dan pilih Pemilik.
+Pivot Editor
+
+Hasil yang didapatkan dari langkah tersebut adalah menampilkan baris nama pemilik seperti di bawah ini.
+
+Selanjutnya kita ingin mengetahui jenis indekos yang ada. Anda dapat mulai menambahkan kolom baru pada Pivot table editor dengan klik Add - pilih Jenis Kos.
+Pivot Editor
+
+Hasil yang didapatkan setelah menambah kolom jenis indekos pada pivot table editor adalah menampilkan jenis indekos yang ada dalam bentuk kolom seperti berikut:
+Pivot Editor - Column
+
+Kemudian untuk mengetahui berapa jumlah indekos yang dikelola setiap pemiliknya, pada Pivot table editor bagian value, klik Add - pilih Jenis Kos.
+Pivot Editor - Add Values
+
+Nah, saat ini kita telah mengetahui setiap pemilik mengelola berapa jenis indekos dari data yang telah dikelompokkan di bawah ini.
+Pivot Editor - Add Values
+
+Berdasarkan hasil pivot table di atas kita telah berhasil mengetahui setiap pemilik mengelola berapa jenis indekos. Misal, Alan memiliki 2 indekos berjenis campur,
+Budi memiliki 1 indekos campur dan 2 indekos putra, dan lain seterusnya. Yay, kita telah berhasil membuat pivot table. Selanjutnya kita akan melanjutkan pembahasan mengenai elemen setiap pivot table. Yuk, lanjut ke materi berikutnya.

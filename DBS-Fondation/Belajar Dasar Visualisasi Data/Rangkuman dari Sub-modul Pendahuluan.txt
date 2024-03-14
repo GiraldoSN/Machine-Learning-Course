@@ -1,0 +1,42 @@
+Visualisasi data merupakan cara mengomunikasikan sebuah informasi atau data dalam bentuk visual seperti diagram, grafik, atau representasi visual lainnya.
+
+Pentingnya penggunaan visualisasi data:
+Komunikasi lebih efektif
+Memantau data dengan lebih mudah
+
+* Macam-macam media visualisasi data:
+Tabel: Penyusunan data ke dalam baris dan kolom.
+
+Diagram batang: Visualisasi grafik dalam bentuk batang.
+
+Diagram garis: Visualisasi grafik dalam bentuk garis. Biasanya menyajikan perubahan data dalam periode waktu tertentu. Secara umum, diagram garis digunakan untuk melihat perkembangan data tertentu yang berlangsung secara terus menerus atau berkelanjutan.
+
+
+Diagram lingkaran: Diagram lingkaran mirip seperti sebuah makanan pizza yang diiris dengan porsi tertentu. Pada konteks data, irisan pizza tersebut menggambarkan persentase data nilai atau kuantitas. Apabila irisan tersebut dijumlahkan nilainya, maka seharusnya menghasilkan 100 persen atau 360 derajat.
+
+
+Visualisasi data yang dapat diterapkan di bidang bisnis:
+Scorecard: Scorecard merupakan sebuah visualisasi yang fokus pada sebuah jenis data yang spesifik. Sehingga biasanya terdiri dari 1 bentuk visualisasi saja.
+
+Dashboard: Kumpulan dari berbagai macam visualisasi yang menggabungkan dan merangkum informasi atau data bisnis.
+
+Report: Bentuk penyampaian berita, keterangan, pemberitahuan, ataupun pertanggungjawaban sebagai bentuk pelaksanaan komunikasi dari pihak yang satu kepada pihak yang lainnya.
+
+Analytic Report: Laporan yang berfokus pada analisis yang digunakan untuk menentukan keputusan.
+
+* Tools yang dapat digunakan untuk membuat visualisasi data
+Tableau Public: Layanan gratis yang memungkinkan siapa saja dapat mempublikasikan visualisasi data ke dalam web. Aplikasi perlu didownload untuk menggunakannya.
+
+Google Sheets: Layanan gratis yang semuanya tersedia secara online sehingga tidak perlu instalasi aplikasi spreadsheet ke komputer atau laptop.
+
+Microsoft Excel: Aplikasi spreadsheet berbayar buatan Microsoft yang memerlukan instalasi ke komputer atau laptop.
+
+Konteks (makna inti) data dibutuhkan agar dapat tepat memahami data. Apabila hanya memiliki data tanpa memahami konteks, maka data tersebut tidak bisa tersampaikan dengan baik.
+
+
+Penting untuk mengetahui audiens (siapa yang nanti membaca data atau visualisasi) untuk menentukan bagaimana cara menyampaikan data.
+
+Kepada siapa data ini akan disampaikan: Anda harus bisa membedakan penyampaian data antara audiens umum dan yang sudah profesional (sudah ahli di bidangnya). 
+Data apa yang ingin disampaikan: Supaya data relevan dengan audiens, Anda harus menyaring terlebih dahulu data yang dimiliki.
+
+Bagaimana cara menyampaikan data tersebut?	 : Metode penyampaian perlu disesuaikan dengan audiens. Sebagai contoh jika sebagian besar audiens tidak terbiasa dengan data dalam bentuk angka maka kita dapat menggunakan metode seolah sedang bercerita (tidak hanya sebut angka saja).

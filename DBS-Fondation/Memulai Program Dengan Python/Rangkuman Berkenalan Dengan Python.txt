@@ -1,0 +1,83 @@
+Rangkuman Berkenalan dengan Python
+Kita sudah berada di penghujung materi pertama. Sampai sini Anda sudah memiliki pengetahuan mendasar mengenai Python. Mari kita rangkum secara saksama.
+
+
+
+Pengenalan Python
+Python adalah bahasa pemrograman multifungsi yang dirilis pada tahun 1991 oleh Guido van Rossum (GvR). Beliau membuat Python sebagai bahasa pemrograman yang mudah dibaca dan dimengerti (readable) serta memiliki kemampuan penanganan kesalahan (exception handling).
+
+Python memiliki ciri khas tersendiri sebagai salah satu pemrograman populer. Salah satu ciri khas yang paling dikenal adalah Python tidak mewajibkan penggunaan titik koma atau semi colon (;) pada setiap akhir kode programnya.
+
+
+
+Bersiap Membuat Kode Program di Lokal
+Untuk menjalankan program Python di lokal komputer, Anda perlu mempersiapkan dua hal, yakni menginstal Python dan menyiapkan Integrated Development Environment (IDE).
+
+Banyak cara yang dapat dilakukan untuk melakukan instalasi Python, semuanya bergantung pada operating system (OS) atau sistem operasi yang Anda gunakan serta sumber yang dipilih. Umumnya, Anda dapat mengakses laman berikut untuk mengunduh Python: https://www.python.org/downloads/. 
+
+Integrated Development Environment (IDE) merupakan sebuah aplikasi yang menyediakan fasilitas komprehensif untuk pengembangan aplikasi bagi para programmer. IDE memiliki banyak fitur, salah satunya adalah kode editor yang mengizinkan Anda untuk membuat dan mengubah kode program.
+
+Ada banyak sekali IDE populer untuk Python yang ramai digunakan oleh programmer. Beberapa di antaranya sebagai berikut.
+
+Visual Studio Code
+Visual Studio Code adalah IDE populer yang telah digunakan oleh banyak programmer. Visual Studio Code menyediakan ribuan plugin yang dapat membantu programmer untuk membuat program.
+PyCharm
+PyCharm adalah IDE yang dibuat khusus untuk pengembangan aplikasi menggunakan bahasa pemrograman Python. Dengan tujuan tersebut, banyak fitur-fitur khusus yang diberikan oleh PyCharm kepada programmers untuk mempermudah proses pengembangan aplikasi Python.
+Jupyter Notebook
+Jupyter Notebook adalah IDE berbasis web yang memungkinkan Anda untuk membuat, berbagi kode program, serta berkolaborasi dengan programmer lain. Jupyter Notebook terdiri dari beberapa sel di dalamnya. Setiap sel dapat berisi kode ataupun teks. Setiap sel tersebut dapat dijalankan satu per satu dan menampilkan hasilnya tanpa harus membangun semua kode terlebih dahulu.
+Google Colaboratory
+Google Colaboratory adalah IDE berbasis web online yang memiliki fungsi sama seperti Jupyter Notebook. Dengan Google Colaboratory, Anda tidak perlu melakukan instalasi seperti yang dilakukan ketika ingin menggunakan Jupyter Notebook.
+ 
+
+Menjalankan Kode Program di Lokal
+Untuk menjalankan kode program Python di lokal komputer, Anda dapat menjalankannya menggunakan tiga mode.
+
+Kode Interaktif
+Mode kode interaktif memungkinkan Anda menjalankan kode Python hanya berbasis terminal/command prompt. Mode ini biasanya digunakan para programmer untuk bereksplorasi dan menjalankan dua sampai tiga baris kode saja. Pastikan Anda telah menginstal Python ketika ingin menggunakan kode interaktif.
+Script
+Mode script adalah mode yang paling sering digunakan oleh programmer untuk membuat kode program. Sederhananya, Anda akan membuat sebuah file (disebut sebagai script) dengan ekstensi “.py”. Kemudian untuk bisa menjalankan kode di dalamnya, Anda perlu mengeksekusi file tersebut.
+Notebook
+Mode Notebook merujuk pada lingkungan pengembangan kode interaktif, seperti Jupyter Notebook atau Google Colaboratory.
+
+
+Variable dan Assignment
+Variabel merupakan lokasi dalam komputer yang digunakan untuk menyimpan nilai dengan tipe data tertentu. Ketika menuliskan variabel, Anda telah memerintahkan komputer untuk mencari dan memesan ruang kosong dalam komputer yang nantinya akan diisi oleh nilai atau data. Proses pemberian atau penetapan nilai pada sebuah variabel disebut dengan assignment. Umumnya, format assignment adalah berikut.
+
+<Ruas Kiri> = <Ruas Kanan>
+
+Ruas kiri adalah variabel dan ruas kanan dapat berupa ekspresi/nilai/variabel yang sudah jelas nilainya.
+
+
+
+Input/Output dan Komentar
+Dalam membuat kode program, Anda dapat menetapkan nilai secara langsung ataupun mengizinkan pengguna menentukannya. Proses ini disebut dengan input. Untuk melakukannya, Anda dapat menggunakan perintah “input()”. 
+
+input()
+Lalu, munculkan hasil keluarannya (output) dengan menggunakan perintah “print()”. 
+
+print()
+Terakhir, Anda dapat memberikan komentar pada program yang dibangun untuk memberikan konteks pada kode. Komentar merupakan barisan teks yang akan diabaikan oleh Python ketika program tersebut dijalankan. 
+
+Ada dua tipe komentar dalam Python sebagai berikut.
+
+Inline Comment
+Inline comment merupakan satu baris komentar yang biasanya diletakkan pada baris yang sama dengan kode atau satu baris sebelum kode.
+# Variabel ini menyimpan nama 'Dicoding Indonesia'
+name = 'Dicoding Indonesia'
+Dengan menggunakan tanda pagar “#”, program yang Anda bangun akan menganggap baris tersebut adalah komentar sehingga tidak akan dijalankan dan memunculkan error.
+Block Comment
+Block comment merupakan satu blok kode bertujuan untuk menjelaskan kode kompleks atau membuat dokumentasi dari sebuah fungsi atau modul. Anda dapat mengapit blok teks dengan tiga buah single quote (''') atau double quote ("") untuk menjadikannya sebagai blok komentar.
+"""
+Ini adalah Block Comment,
+Teks ini akan diabaikan oleh Python.
+"""
+print("Hello World!")
+Dengan menggunakan tiga double quote ("""), program yang Anda bangun akan menganggap blok tersebut adalah komentar sehingga tidak akan dijalankan dan memunculkan error.
+
+Selain itu, berikut adalah implementasi block comment menggunakan single quote (‘’’).
+'''
+Ini adalah Block Comment,
+Teks ini akan diabaikan oleh Python.
+'''
+print("Hello World!")
+Kedua cara tersebut sama-sama mengarahkan program Anda untuk menganggap teks di dalamnya sebagai komentar, sehingga ketika dijalankan tidak akan memunculkan error.

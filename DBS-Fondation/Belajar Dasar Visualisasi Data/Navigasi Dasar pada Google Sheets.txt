@@ -1,0 +1,69 @@
+Data yang dapat dimasukkan dalam sel tersebut dapat berupa,
+
+Angka : Anda dapat memasukkan angka yang nantinya dapat dihitung secara matematis.
+Teks : Anda dapat memasukkan data atau informasi dalam bentuk teks seperti “Jumlah barang” atau “Nama lengkap”. 
+Rumus : Digunakan untuk melakukan perhitungan atau kalkulasi dari sebuah atau sekelompok sel. Misal, kita dapat menggunakan rumus untuk menjumlahkan sebuah deretan sel yang berisi data dalam bentuk angka.
+Biasanya baris dan kolom memiliki label yang berbeda. Kolom dilabelkan dengan huruf (A, B, C, dan seterusnya) yang membentang secara horizontal ke kanan. 
+Sedangkan baris dilabelkan dengan angka-angka (1, 2, 3, dan seterusnya) yang tersusun secara vertikal ke bawah.
+Jika Anda menulis sebuah teks pada posisi seperti gambar di bawah, berarti posisinya berada pada kolom B dan baris ke-2 sehingga letak teks tersebut berada pada sel B2
+
+Tombol pada Keyboard + Fungsi adalah sebagai Berikut:
+
+Tab = Mengakhiri masukan data pada sebuah sel dan bergeser ke sel selanjutnya secara horizontal (ke kanan)
+
+Ctrl + arah panah = Berpindah ke sel paling luar berdasarkan arah yang dimasukkan. Misal data tertulis dalam kolom A1 sampai J1. Apabila diberikan perintah Ctrl + arah kanan maka sel akan berpindah ke kolom J1.
+
+Shift + arah panah = Untuk menyorot sel berdasarkan arah yang diberikan. Misal terdapat data yang berada pada A1 sampai A10, jika ditekan Shift + arah bawah mulai dari A1 maka akan menyorot data pada sel A2, A3, dan seterusnya.
+
+Ctrl + Shift + arah panah = Untuk menyorot sel yang berisi data. Misal terdapat data yang berada pada A1 sampai A10, jika ditekan Ctrl + Shift + arah bawah maka data yang dimulai dari A1 sampai A10 langsung otomatis tersorot.
+
+Nama Menu + Kegunaan adalah sebagai berikut:
+Share = Membagikan berkas yang kita kerjakan supaya dapat dilihat, diubah atau dikomentari oleh pengguna lain. Menu ini bisa kita gunakan untuk berkolaborasi dengan pengguna lain untuk menyelesaikan  sebuah pekerjaan. Setiap perubahan yang dilakukan oleh pengguna lain dapat dilihat oleh pemilik berkas bergantung pada tingkat akses yang diberikan
+New = Membuat berkas spreadsheet baru. Bahkan bisa juga digunakan untuk membuat berkas dokumen lain seperti google docs, presentation, dan lainnya
+Import = Memasukkan berkas lain ke dalam spreadsheet yang sedang kita buat. Format yang didukung antara lain, csv, txt, tsv, tab, htm, html, xls, xlsx, xlsm, xlt, xltm, xltx, dan ods.
+Make a copy = Menduplikasi berkas yang sedang kita kerjakan
+Download = Mengunduh berkas yang kita kerjakan ke dalam komputer
+Email as attachment = Mengirimkan berkas spreadsheet sebagai lampiran email
+Make available offline = Memungkinkan kita mengerjakan spreadsheet secara offline dan data yang dimasukkan akan sinkron saat kondisi online. Namun, apabila berkas telah dibagikan ke orang lain maka hanya bisa dikerjakan secara online
+Version history = Melihat setiap riwayat pengubahan data yang sebelumnya
+Rename = Mengubah nama berkas spreadsheet
+Move = Memindahkan berkas spreadsheet ke direktori lain dalam Google Drive
+Move to trash = Menghapus berkas spreadsheet tapi masih bisa ditemukan di tempat sampah (trash) dalam Google Drive sehingga bisa dikembalikan lagi
+Publish to the web = Berkas kita dapat dimasukkan ke dalam sebuah web dengan memanfaatkan embed link yang sudah disediakan
+Email collaborators = Mengirimkan pesan kepada teman yang ikut tergabung dalam kolaborasi pengerjaan berkas spreadsheet
+Document details = Memperlihatkan detail dari berkas spreadsheet yang sedang dikerjakan seperti direktori penyimpanan berkas, pemilik berkas, tanggal berkas dibuat, dan tanggal berkas dimodifikasi
+Settings = Mengubah pengaturan pada Spreadsheet seperti zona waktu, bahasa, dan lainnya
+Print = Digunakan untuk mencetak berkas spreadsheet
+
+Menu Edit
+Dalam menu Edit, kita akan menemui beberapa sub-menu sebagai berikut:
+
+Nama Menu + Kegunaan
+Undo = Mengembalikan ke kondisi perubahan data terakhir
+Redo = Membatalkan perintah undo atau kembali ke kondisi sebelum perintah Undo
+Cut = Memindahkan isi data dari suatu sel
+Copy = Menduplikasi isi data dari suatu sel
+Paste = Menampilkan data hasil duplikat atau pemindahan yang dilakukan sebelumnya
+Paste special = Menampilkan data hasil duplikat atau pemindahan dengan pemilihan tertentu, misal hanya nilainya saja (value only), format penulisannya saja (format only), dan lainnya
+Find and replace = Mencari data tertentu pada suatu sel dan menggantinya dengan masukan baru
+Delete value = Hanya menghapus nilai baik berupa angka maupun kata yang berada dalam sebuah sel (tanpa mempengaruhi format penulisan)
+Delete row = Menghapus data yang terdapat pada sebuah baris yang diinginkan
+Delete column = Menghapus data yang terdapat dalam sebuah kolom
+Delete cells and shift up = Menghapus data dalam sebuah sel dan data di bawahnya akan otomatis bergeser ke atas
+Delete cells and shift left = Menghapus data dalam sebuah sel dan data di sebelah kanannya akan otomatis bergeser ke kir
+Clear notes = Menghilangkan catatan yang ada di sel terpilih
+Remove checkbox = Menghilangkan checkbox yang ada di sebuah sel
+
+Menu View
+Selanjutnya kita beralih ke menu View. Dalam menu view terdapat sub lainnya sebagai berikut:
+
+Nama Menu + Kegunaan
+Freeze = Membuat baris atau kolom yang dibekukan akan terlihat walaupun kita scroll ke bawah atau samping
+Gridlines = Menampilkan garis khayal sel di berkas spreadsheet
+Protected range = Menampilkan sel mana yang terproteksi dan membutuhkan hak akses untuk mengubahnya
+Formula bar = Menampilkan bar khusus untuk formula atau rumus yang dibuat dalam sebuah sel
+Show formula = Menampilkan formula yang dibuat dalam sebuah se
+Hidden sheets = Menampilkan sheet yang disembunyikan
+Zoom = Memperbesar tampilan spreadsheet
+Full screen = Menampilkan spreadsheet dalam satu layar penuh
+

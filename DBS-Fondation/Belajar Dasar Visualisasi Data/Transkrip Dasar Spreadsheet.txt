@@ -1,0 +1,18 @@
+Seberapa familiarkah Anda dengan Spreadsheet? Penyebutan spreadsheet sangat sering kita kaitkan dengan pengolahan suatu data berupa angka. Mungkin Anda lebih familiar mendengarnya disebut menggunakan kata Microsoft Excel dan Google Sheets.
+
+Namun, tahukah Anda arti dari Spreadsheet itu sendiri? Spread berarti penyebaran atau menyebar, sedangkan sheet berarti lembaran. Sehingga, spreadsheet merupakan sebuah lembaran berisi baris dan kolom yang dapat kita gunakan untuk analisis data.
+
+Data yang terdapat pada spreadsheet terlihat lebih terstruktur. Proses memilah serta mengurutkan data pun terasa lebih mudah. Selain itu, hasil data dari spreadsheet akan lebih mudah dibaca oleh program komputer yang berkaitan dengan pengolahan data lainnya. 
+
+Jika Anda memiliki ribuan data penjualan produk, sebagai contoh alat tulis kantor, dan ingin mengetahui berapa jumlah pensil yang terjual, maka aplikasi spreadsheet akan sangat membantu. Hal tersebut karena spreadsheet memiliki fitur untuk mengelompokkan data berdasarkan parameter tertentu. Bayangkan jika Anda menuliskan data tersebut pada kertas atau pada jenis dokumen biasa, pasti Anda akan mengalami kesulitan dalam mengelompokkan dan menghitung jumlah datanya.
+
+Berikut ini adalah beberapa kegunaan spreadsheet:
+
+Menyimpan informasi secara detail.
+Membuat tabel data dengan lebih mudah.
+Membantu dalam perhitungan statistik.
+Memvisualisasikan data ke dalam bentuk grafik.
+Lengkap dengan rumus-rumus yang membantu dalam perhitungan data.
+Pernahkah Anda membayangkan ingin mengerjakan tugas pengolahan data menggunakan aplikasi spreadsheet namun ruang kosong pada harddisk kian menipis? Nah, Anda juga bisa menggunakan Google Sheets dalam melakukan pengolahan data. Google Sheets dapat diakses secara online dan berkasnya dapat diunduh atau disimpan dalam Google Drive.
+
+Nah, pada modul ini, kita akan membahas dasar-dasar spreadsheet menggunakan Google Sheets. Hal ini dilakukan supaya lebih fleksibel dan lebih praktis penggunaannya karena tidak memerlukan instalasi tambahan lain.
