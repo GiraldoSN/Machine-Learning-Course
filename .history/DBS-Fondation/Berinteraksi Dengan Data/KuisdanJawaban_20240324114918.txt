@@ -1,0 +1,91 @@
+Python merupakan bahasa pemrograman yang menerapkan loosely typed. Apa itu loosely typed?
+A
+Bahasa pemrograman yang tidak mengharuskan deklarasi tipe data variabel secara eksplisit.
+B
+Bahasa pemrograman yang hanya mengetahui tipe variabel saat program berjalan dan dilakukan assignment.
+C
+Bahasa pemrograman yang mengharuskan kita untuk tidak boleh mendeklarasikan tipe data variabel.
+D
+Bahasa pemrograman yang secara otomatis mengetahui tipe data variabelnya.
+
+Jawaban yang benar adalah:
+
+A. Bahasa pemrograman yang tidak mengharuskan deklarasi tipe data variabel secara eksplisit.
+
+Ini adalah deskripsi yang tepat untuk konsep loosely typed dalam pemrograman. Dalam bahasa pemrograman yang menerapkan loosely typed, Anda tidak perlu secara eksplisit mendeklarasikan tipe data variabel saat Anda mendeklarasikan atau menggunakan variabel. Python adalah salah satu contoh bahasa pemrograman yang menerapkan pendekatan loosely typed ini.
+
+User
+Disebut apa kemampuan kita untuk mengerti konteks dan merepresentasikan menjadi bentuk lain?
+A
+Data konteks.
+B
+Data representation.
+C
+Abstraksi data.
+D
+Interpretasi data.
+
+Jawaban yang tepat adalah:
+
+C. Abstraksi data.
+
+Abstraksi data adalah kemampuan untuk memahami konteks dan merepresentasikannya dalam bentuk lain yang lebih terstruktur atau lebih mudah dimengerti. Ini melibatkan proses mengubah data ke dalam format yang lebih dapat dimanipulasi atau dipahami oleh manusia atau mesin.
+
+User
+name = 'Dicoding Indonesia'
+print(f"Hello, saya belajar coding di {name}")
+Apakah output yang didapat dari kode di atas?
+
+A
+Hello, saya belajar coding di Dicoding Indonesia
+
+B
+f"Hello, saya belajar coding di {name}"
+
+C
+Hello, saya belajar coding di {name}
+
+D
+Error
+
+ Sebelumn
+ChatGPT
+Output yang akan didapat dari kode di atas adalah:
+
+A. Hello, saya belajar coding di Dicoding Indonesia
+
+Penjelasan:
+
+Kode tersebut menggunakan f-string (formatted string literal) yang memungkinkan kita untuk menyisipkan nilai variabel langsung ke dalam string menggunakan sintaks f"{nama_variabel}".
+Ketika kode dijalankan, nilai dari variabel name ('Dicoding Indonesia') akan disisipkan ke dalam string di dalam f-string tersebut.
+Sehingga, output yang dihasilkan adalah "Hello, saya belajar coding di Dicoding Indonesia".
+User
+x = { 'name': 'Coding', 'age': 20, 'isMarried': False }
+x ['name'] = "Dicoding"
+print(x)
+Apakah output yang didapat dari kode di atas?
+
+A
+{ 'name': 'Coding', 'age': 20, 'isMarried': False }
+
+B
+{'name': 'Dicoding', 'age': 20, 'isMarried': False}
+
+C
+Error: 'name'
+
+D
+'dictionary' object does not support item assignment
+ChatGPT
+Output yang akan didapat dari kode di atas adalah:
+
+B. {'name': 'Dicoding', 'age': 20, 'isMarried': False}
+
+Penjelasan:
+
+Kode tersebut membuat sebuah dictionary dengan nama x yang memiliki tiga pasangan kunci-nilai: 'name', 'age', dan 'isMarried'.
+Kemudian, nilai dari kunci 'name' diubah menjadi "Dicoding" dengan menggunakan pernyataan x['name'] = "Dicoding".
+Akibatnya, output dari dictionary x setelah perubahan adalah {'name': 'Dicoding', 'age': 20, 'isMarried': False}.
+
+
+
