@@ -1,0 +1,63 @@
+Kategori : Aksi Sekuensial
+
+variabel_pertama = "Dicoding"
+VariAbel_Pertama = "Indonesia"
+
+print(variabel_pertama)
+print(VariAbel_Pertama)
+print(VARIABEL_PERTAMA)
+Output dari kode di atas menghasilkan pesan error berikut: 
+
+NameError: name 'VARIABEL_PERTAMA' is not defined.
+
+Mengapa hal itu terjadi?
+
+A
+Python adalah bahasa pemrograman dengan case-sensitive sehingga variabel "VARIABEL_PERTAMA" pada kode tersebut dianggap tidak pernah dideklarasikan sebelumnya.
+
+B
+Python tidak sensitif terhadap penamaan variabel.
+
+C
+Kode tersebut seharusnya berjalan dengan baik.
+
+D
+Python tidak memiliki fungsi VARIABEL_PERTAMA.
+
+Benar
+Kategori : Aksi Sekuensial
+
+Apa perbedaan dari compiler dan interpreter?
+A
+Compiler menerjemahkan kode sebelum dijalankan, sedangkan interpreter akan menerjemahkan kode secara langsung saat dijalankan.
+B
+Interpreter menghasilkan kode yang lebih efisien dibandingkan compiler.
+C
+Compiler bekerja lebih cepat dibandingkan dengan interpreter.
+D
+Compiler akan menerjemahkan kode secara langsung, sedangkan interpreter akan menerjemahkan kode sebelum dijalankan.
+Benar
+Kategori : Aksi Sekuensial
+
+Mengapa sebuah indentasi sangat penting dalam Python?
+A
+Indentasi membuat kode menjadi keren.
+B
+Indentasi membantu kode program agar sulit dimengerti oleh programmer lain.
+C
+Indentasi berperan sebagai penanda awal dan akhir sebuah kode blok.
+D
+Indentasi menjelaskan tujuan dari kode program yang dibangun.
+Salah
+Kategori : Aksi Sekuensial
+
+Apakah yang dimaksud dengan aksi sekuensial?
+A
+Sederetan instruksi yang akan dijalankan oleh komputer berdasarkan tipe data variabel.
+B
+Aksi pemrograman yang menjalankan kode secara bersamaan.
+C
+Sederetan instruksi yang akan dijalankan oleh komputer berdasarkan urutan penulisannya.
+D
+Kumpulan instruksi dalam Python yang dijalankan dalam satu waktu.
+Benar

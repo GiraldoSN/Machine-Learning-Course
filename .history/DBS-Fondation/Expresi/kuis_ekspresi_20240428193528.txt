@@ -1,0 +1,72 @@
+
+
+User
+Apakah jenis operator yang disebut juga sebagai operator perbandingan antar dua operan bertipe numerik yang menghasilkan nilai bertipe boolean?
+A
+Operator assignment.
+B
+Operator aritmatika.
+C
+Operator relational.
+D
+Operator logika.
+ChatGPT
+Jawaban yang benar adalah opsi C: Operator relational.
+
+User
+Apa struktur umum ekspresi biner?
+A
+<operator> <operan1> <operan2>
+B
+<operan1> <operator> <operan2>
+C
+<operan>
+D
+<operan1> <operan2> <operator>
+ChatGPT
+Jawaban yang benar adalah opsi B: <operan1> <operator> <operan2>.
+
+User
+x = 1960 
+x += 901 
+print(x) 
+Apakah output dari kode di atas?
+
+A
+2861
+
+B
+1960901
+
+C
+Error
+
+D
+ValueError
+ChatGPT
+Output dari kode di atas adalah:
+
+A. 2861
+
+User
+Manakah dari opsi di bawah ini yang merupakan operator aritmetika? 
+
+Penjumlahan 
+Modulus 
+NOT 
+Pangkat
+A
+1 dan 2.
+
+B
+1, 2, dan 3.
+
+C
+1, 2, dan 4.
+
+D
+Semua benar.
+ChatGPT
+Opsi yang merupakan operator aritmetika adalah penjumlahan dan pangkat. Jadi, jawabannya adalah:
+
+A. 1 dan 4.

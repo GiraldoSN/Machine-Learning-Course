@@ -1,0 +1,1 @@
+tinggi_badan = 160

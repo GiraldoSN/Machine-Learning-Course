@@ -1,0 +1,1 @@
+tinggi badan = 1
