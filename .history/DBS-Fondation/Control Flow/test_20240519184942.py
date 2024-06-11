@@ -1,0 +1,1 @@
+SK = Sangat_Kurang 

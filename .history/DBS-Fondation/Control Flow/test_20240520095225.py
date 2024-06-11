@@ -20,8 +20,6 @@ kriteria = {
 
 # Fungsi untuk mengkonversi nilai ke skala penilaian
 def konversi_nilai(kriteria, nilai):
-    if nilai == '-' or nilai == 0:
-        return "SB"
     for key, value in kriteria.items():
         if isinstance(value, tuple) and value[0] <= nilai <= value[1]:
             return key
@@ -31,20 +29,10 @@ def konversi_nilai(kriteria, nilai):
 
 # Fungsi untuk memasukkan data nasabah
 def masukkan_data(nasabah_id):
-    try:
-        c1 = float(input("Masukkan Gaji (C1) untuk {}: ".format(nasabah_id)))
-    except ValueError:
-        c1 = 0
-    try:
-        c2_input = input("Masukkan Income Lain (C2) untuk {}: ".format(nasabah_id))
-        c2 = float(c2_input) if c2_input != '-' else 0
-    except ValueError:
-        c2 = 0
+    c1 = float(input("Masukkan Gaji (C1) untuk {}: ".format(nasabah_id)))
+    c2 = float(input("Masukkan Income Lain (C2) untuk {}: ".format(nasabah_id)))
     c3 = input("Masukkan BI Checking (C3) untuk {} (Macet/Diragukan/Tidak Lancar/DPK/Lancar): ".format(nasabah_id))
-    try:
-        c4 = float(input("Masukkan Agunan/Jaminan (C4) untuk {}: ".format(nasabah_id)))
-    except ValueError:
-        c4 = 0
+    c4 = float(input("Masukkan Agunan/Jaminan (C4) untuk {}: ".format(nasabah_id)))
 
     nasabah[nasabah_id] = {
         "C1": penilaian[konversi_nilai(kriteria["C1"], c1)],
@@ -84,4 +72,3 @@ def menu():
 
 # Menjalankan menu utama
 menu()
-

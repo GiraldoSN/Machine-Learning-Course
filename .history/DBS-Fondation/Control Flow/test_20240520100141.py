@@ -13,15 +13,13 @@ penilaian = {
 # Mendefinisikan rentang kriteria
 kriteria = {
     "C1": {"SK": (3000000, 3800000), "K": (4000000, 5000000), "C": (5100000, 6000000), "B": (6100000, 7000000), "SB": (7000000, float('inf'))},
-    "C2": {"SK": (2000000, 3000000), "K": (3500000, 4500000), "C": (5000000, 6000000), "B": (6500000, 7500000), "SB": (8000000, float('inf'))},
+    "C2": {"SK": (2000000, 3000000), "K": (3500000, 4500000), "C": (5000000, 6000000), "B": (6500000, 7500000), "SB": (8000000, "-", ""float('inf'))},
     "C3": {"SK": "Macet", "K": "Diragukan", "C": "Tidak Lancar", "B": "DPK", "SB": "Lancar"},
     "C4": {"SK": (100000000, 200000000), "K": (200000000, 300000000), "C": (300000000, 400000000), "B": (400000000, 500000000), "SB": (500000000, float('inf'))}
 }
 
 # Fungsi untuk mengkonversi nilai ke skala penilaian
 def konversi_nilai(kriteria, nilai):
-    if nilai == '-' or nilai == 0:
-        return "SB"
     for key, value in kriteria.items():
         if isinstance(value, tuple) and value[0] <= nilai <= value[1]:
             return key
@@ -31,20 +29,10 @@ def konversi_nilai(kriteria, nilai):
 
 # Fungsi untuk memasukkan data nasabah
 def masukkan_data(nasabah_id):
-    try:
-        c1 = float(input("Masukkan Gaji (C1) untuk {}: ".format(nasabah_id)))
-    except ValueError:
-        c1 = 0
-    try:
-        c2_input = input("Masukkan Income Lain (C2) untuk {}: ".format(nasabah_id))
-        c2 = float(c2_input) if c2_input != '-' else 0
-    except ValueError:
-        c2 = 0
+    c1 = float(input("Masukkan Gaji (C1) untuk {}: ".format(nasabah_id)))
+    c2 = float(input("Masukkan Income Lain (C2) untuk {}: ".format(nasabah_id)))
     c3 = input("Masukkan BI Checking (C3) untuk {} (Macet/Diragukan/Tidak Lancar/DPK/Lancar): ".format(nasabah_id))
-    try:
-        c4 = float(input("Masukkan Agunan/Jaminan (C4) untuk {}: ".format(nasabah_id)))
-    except ValueError:
-        c4 = 0
+    c4 = float(input("Masukkan Agunan/Jaminan (C4) untuk {}: ".format(nasabah_id)))
 
     nasabah[nasabah_id] = {
         "C1": penilaian[konversi_nilai(kriteria["C1"], c1)],
@@ -84,4 +72,3 @@ def menu():
 
 # Menjalankan menu utama
 menu()
-

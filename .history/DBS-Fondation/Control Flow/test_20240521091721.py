@@ -74,6 +74,8 @@ def menu():
         if pilihan == "1":
             nasabah_id = input("Masukkan ID Nasabah: ")
             masukkan_data(nasabah_id)
+        else:
+            print("Data yang dimasukkan tidak boleh sama de")
         elif pilihan == "2":
             nasabah_id = input("Masukkan ID Nasabah yang ingin ditampilkan: ")
             tampilkan_data(nasabah_id)
