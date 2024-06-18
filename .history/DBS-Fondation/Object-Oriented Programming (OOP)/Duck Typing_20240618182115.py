@@ -8,4 +8,3 @@ Traceback (most recent call last):
     print(len(i))
 TypeError: object of type 'int' has no len()
 """
-
